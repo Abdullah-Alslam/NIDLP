@@ -14,7 +14,7 @@ function UserButton() {
   const [isArabic, setIsArabic] = useState(true);
 
   return (
-    <DropdownMenu dir="">
+    <DropdownMenu dir="ltr">
       {/* TRIGGER */}
       <DropdownMenuTrigger asChild>
         <Button
