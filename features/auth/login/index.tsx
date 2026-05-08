@@ -61,7 +61,7 @@ function LoginPage() {
       {/* Logo */}
       <header className="pt-8 sm:pt-10">
         <Image
-          src="/NIDLP ARABIC LOGO.png"
+          src="/icons/NIDLP ARABIC LOGO.png"
           alt="NIDLP Logo"
           width={280}
           height={160}
