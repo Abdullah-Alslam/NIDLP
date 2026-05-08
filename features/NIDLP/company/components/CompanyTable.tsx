@@ -46,7 +46,11 @@ function ownerKey(c: CompanyRow) {
   return `${c.owner_name}|${c.owner_email}`;
 }
 
-export function CompanyTable() {
+export function CompanyTable({
+  companyAddedOrEdited,
+}: {
+  companyAddedOrEdited?: string;
+}) {
   const [page, setPage] = useState(1);
   const [companiesDataState, setCompaniesDataState] = useState(companiesData);
 
@@ -56,9 +60,7 @@ export function CompanyTable() {
 
   const [actionMenuForId, setActionMenuForId] = useState<number | null>(null);
 
-  const searchParams = useSearchParams();
-  const companyAddedOrEdited =
-    searchParams.get("add") || searchParams.get("edit");
+
 
   const companyOptions: CompanyOption[] = useMemo(() => {
     const seen = new Set<string>();
