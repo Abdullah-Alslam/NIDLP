@@ -6,8 +6,8 @@ export const VISION_CONTENT = {
 }
 
 export const VALUES = [
-  { icon: "/icons/vector2.svg", text: "التكامل" },
-  { icon: "/icons/vector2.svg", text: "الشفافية" },
-  { icon: "/icons/vector2.svg", text: "المبادرة" },
-  { icon: "/icons/vector1.svg", text: "التمكين" },
+  { icon: "/icons/Vector2.svg", text: "التكامل" },
+  { icon: "/icons/Vector2.svg", text: "الشفافية" },
+  { icon: "/icons/Vector2.svg", text: "المبادرة" },
+  { icon: "/icons/Vector1.svg", text: "التمكين" },
 ]
