@@ -29,7 +29,7 @@ function CouncilMessage() {
 
       <div className='absolute top-20 md:top-25 left-0 w-[50px] md:w-[100px]'>
         <MotionWrapper animation={fadeIn("left", 0.2)}>
-          <Image src="/icons/vector22.svg" alt='vector' width={100} height={100} layout="responsive" />
+          <Image src="/icons/vector2.svg" alt='vector' width={100} height={100} layout="responsive" />
         </MotionWrapper>
       </div>
 
