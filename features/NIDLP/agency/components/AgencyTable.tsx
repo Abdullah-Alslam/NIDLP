@@ -47,7 +47,11 @@ function agencyKey(a: AgencyRow) {
   return `${a.entity_name}|${a.email}`;
 }
 
-export function AgencyTable() {
+export default function AgencyTable({
+  agencyAddedOrEdited,
+}: {
+  agencyAddedOrEdited?: string;
+}) {
   const [page, setPage] = useState(1);
   const [agenciesDataState, setAgenciesDataState] = useState(agenciesData);
   const [agencyKeyFilter, setAgencyKeyFilter] = useState<string>(ALL);
@@ -55,9 +59,7 @@ export function AgencyTable() {
   const [userCountQuery, setUserCountQuery] = useState("");
   const [actionMenuForId, setActionMenuForId] = useState<number | null>(null);
 
-  const searchParams = useSearchParams();
-  const agencyAddedOrEdited =
-    searchParams.get("add") || searchParams.get("edit");
+
 
   const uniqueAgencyOptions = useMemo(() => {
     const seen = new Set<string>();

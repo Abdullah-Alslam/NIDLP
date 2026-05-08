@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Flag from "@/public/assets/flag.png";
 import { ComponentPropsWithoutRef } from "react";

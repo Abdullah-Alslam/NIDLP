@@ -1,8 +1,13 @@
-"use client"
-import Link from "next/link";
-import { AgencyTable } from "./components/AgencyTable";
+"use client";
 
-export function AgencyView() {
+import Link from "next/link";
+import AgencyTable from "./components/AgencyTable";
+
+export default function AgencyView({
+  agencyAddedOrEdited,
+}: {
+  agencyAddedOrEdited?: string;
+}) {
   return (
     <div className="relative pt-14" dir="rtl">
       <Link
@@ -16,7 +21,8 @@ export function AgencyView() {
         <span>+</span>
         اضافة جهة حكومية
       </Link>
-      <AgencyTable />
+
+      <AgencyTable agencyAddedOrEdited={agencyAddedOrEdited} />
     </div>
   );
 }
