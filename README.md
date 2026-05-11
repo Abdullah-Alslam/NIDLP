@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NIDLP - Maritime Transport Services Platform
 
-## Getting Started
+A professional maritime transport and logistics platform built with Next.js, providing modern digital solutions for cargo shipping, vessel operations, freight management, and global maritime services.
 
-First, run the development server:
+The platform is designed to deliver a fast, scalable, and responsive experience for companies and customers involved in sea transportation and logistics operations.
+
+---
+
+## Overview
+
+NIDLP focuses on delivering a modern digital experience for maritime transportation services. The platform allows users to explore shipping solutions, manage cargo operations, track shipments, and communicate efficiently with transport providers.
+
+The application combines performance, scalability, and clean UI/UX to support real-world logistics workflows.
+
+---
+
+## Features
+
+- Responsive and modern user interface
+- Cargo and shipment management
+- Real-time shipment tracking
+- Fleet and vessel information pages
+- Booking and inquiry system
+- Customer service section
+- Secure authentication system
+- Optimized performance and SEO
+- Smooth animations and transitions
+- Mobile-first design
+
+---
+
+## Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### Backend & Services
+- REST API
+- Firebase Authentication
+- MongoDB
+
+### Deployment
+- Vercel
+- Netlify
+
+---
+
+## Project Structure
+
+```bash
+├── app
+├── components
+├── public
+├── styles
+├── lib
+├── hooks
+├── services
+├── types
+├── utils
+└── data
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/NIDLP.git
+```
+
+### Enter Project Folder
+
+```bash
+cd NIDLP
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will run on:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Available Commands
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev
+npm run build
+npm run start
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance & Optimization
 
-## Deploy on Vercel
+- Server-side rendering with Next.js
+- Optimized image loading
+- Code splitting
+- Lazy loading
+- SEO-friendly pages
+- Responsive layouts for all devices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Enhancements
+
+- Live maritime tracking map
+- Online payment integration
+- Multi-language support
+- Advanced admin dashboard
+- Real-time notifications
+- Analytics and reporting system
+
+---
+
+## Deployment
+
+This project can be deployed using:
+
+- Vercel
+- Netlify
+- AWS
+- DigitalOcean
+
+---
+
+## Author
+
+Abdullah Abdalsalam
+
+GitHub:
+https://github.com/abdullah-abd-alslam
+
+---
+
+## License
+
+This project is licensed under the MIT License.
